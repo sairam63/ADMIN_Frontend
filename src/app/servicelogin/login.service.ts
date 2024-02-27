@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from "@angular/common/http";
+import { environment} from "../../environments/environment";
 
 @Injectable({
   providedIn: 'root'
@@ -14,6 +15,6 @@ export class LoginService  {
 
   constructor(private http:HttpClient) { }
   getlogin(){
-    return this.http.get("http://localhost:5000/api/login");
+    return this.http.get(`${environment.apiUrl}/api/login`);
   }
 }
