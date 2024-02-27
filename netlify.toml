@@ -5,6 +5,6 @@
 
 [[redirects]]
   from = "/api/*"
-  to = "http://localhost:5000/"
+  to = "http://localhost:2000/"
   status = 200
   force = true
