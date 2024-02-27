@@ -1,6 +1,6 @@
-[build]
-  command = "npm run build"  # Replace with your frontend build command
-  publish = "frontend/build"  # Replace with the path to your build output directory
+#[build]
+#  command = "npm run build"  # Replace with your frontend build command
+#  publish = "frontend/build"  # Replace with the path to your build output directory
 
 
 [[redirects]]
